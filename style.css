@@ -1,0 +1,91 @@
+*{
+    margin: 0; padding:0; box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.site-header {
+    width: 100%;
+    height: 100vh;
+    background: #185a9d;
+    background: linear-gradient(57deg, #021a33 , #e91140 );
+}
+
+nav{
+    width: 100%; height: 100px;
+    display: flex; color: white;
+    background-color: #420629b6;
+    
+}
+.manu img{
+    width: 85px;height: 85px;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+
+.logo{
+    width: 50%;
+    height: 100px;
+}
+
+.logo h1{
+    line-height: 100px;
+    padding-left: 20px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.menu{
+    width: 50%; height: 100px;
+}
+
+.menu ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:  center;
+}
+
+.menu ul li{
+    list-style: none;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover {
+    background-color: rgb(248, 228, 228);
+    color: rgb(19, 3, 3);
+    padding: 10px 10px 10px 10px;
+    border-radius: 35px;
+}
+
+.menu ul li.active a{
+    background-color: rgb(34, 2, 2);
+    color: rgb(240, 227, 227);
+    padding: 10px 10px 10px 10px;
+    border-radius: 35px;
+}
+
+section{ display: flex;  }
+
+.leftside { width: 50%; height: auto; overflow: hidden; margin-top: 100px; margin-left: 300px;}
+
+.leftside img{  width: 350px;  height: 350px; }
+
+.rightside{ width: 55%; height: 300px; color: white; text-align: center; margin-top: 100px; padding: 40px;background-color: #080103bb;}
+
+.rightside h1{ text-align: center;
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 900;
+    text-transform: uppercase; } 
+
+.rightside p {  
+    font-size: 1.3rem; padding: 20px 0; }
